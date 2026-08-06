@@ -111,7 +111,7 @@ non posso aprire la finestra delle statistiche
 ;Couldn't open statistics window
 ;
 msgNoRexx
-Non posso aprire la rexxsyslib.library 
+Non posso aprire la rexxsyslib.library
 ;Couldn't open rexxsyslib.library
 ;
 ; The following message is used by the ErrorTask to format its error message
