@@ -1,4 +1,4 @@
-## version $VER: vmm-handler.catalog 1.0 (22.3.95)
+## version $VER: vmm-handler.catalog 1.0 (06.08.2026)
 ## language dansk
 ## codeset 0
 ;
@@ -218,6 +218,6 @@ Antal sider brugt på device:
 ;Pages used on device:
 ;
 msgDynMapFailed
-
+Kunne ikke installere sidetabel til dynamisk MMU-konfiguration.\nTask stoppet.
 ;Could not install pagetable for dynamic MMU configuration.\n\
 ;Task stopped.

@@ -11,6 +11,7 @@
 *.cd                 text encoding=ISO-8859-1
 
 albanian.ct          text encoding=ISO-8859-1
+basque.ct            text encoding=ISO-8859-1
 catalan.ct           text encoding=ISO-8859-1
 danish.ct            text encoding=ISO-8859-1
 dutch.ct             text encoding=ISO-8859-1
@@ -41,7 +42,6 @@ polish.ct            text encoding=ISO-8859-2
 # ISO-8859-3
 #
 maltese.ct           text encoding=ISO-8859-3
-turkish.ct           text encoding=ISO-8859-3
 
 # ISO-8859-4
 #
@@ -53,8 +53,15 @@ lithuanian.ct        text encoding=ISO-8859-4
 #
 bulgarian.ct         text encoding=ISO-8859-5
 macedonian.ct        text encoding=ISO-8859-5
-serbian.ct           text encoding=ISO-8859-5
 ukrainian.ct         text encoding=ISO-8859-5
+
+# Serbian is Latin script, stored using the CP852 (Amiga) byte mapping
+#
+serbian.ct           text encoding=CP852
+
+# ISO-8859-9
+#
+turkish.ct           text encoding=ISO-8859-9
 
 # Russian is stored as WINDOWS-1251 but used as Amiga-1251
 russian.ct           text encoding=WINDOWS-1251

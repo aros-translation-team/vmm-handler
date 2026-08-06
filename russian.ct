@@ -1,6 +1,6 @@
 ## version $VER: VMM-Handler.catalog 22.15 (8.6.96) Russian catalog version (c) Oleg Khimich '96
 ## language russian
-## codeset 0
+## codeset 2104
 ;
 msgNotEnoughMem
 Не хватает памяти
