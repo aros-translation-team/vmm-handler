@@ -1,0 +1,212 @@
+## version $VER: vmm-handler.catalog 1.0 (06.08.2026)
+## language norsk
+## codeset 0
+;
+msgNotEnoughMem
+Ikke nok minne
+; Not enough memory
+;
+msgNoPagingFile
+Klarte ikke åpne sidevekslingsfilen
+; Couldn't open paging file
+;
+msgNoSpace
+Ikke nok plass på disken
+; Not enough space on disk
+;
+msgFailedIo
+IO mot sidevekslingsenheten mislyktes
+; IO to paging device failed
+;
+msgFileIsDir
+Sidevekslingsfilen er en katalog
+; Pagefile is a directory
+;
+msgInternal
+Intern feil.\nKontakt forfatteren: apel@tecmath.de
+; Internal error.\nContact author: apel@tecmath.de
+;
+msgInhibitFailed
+Klarte ikke hindre DOS i å bruke partisjonen
+; Couldn't inhibit DOS from using partition
+;
+msgWrongBlocksize
+FFS-partisjon med blokkstørrelse != 512 byte
+; FFS partition with blocksize != 512 bytes
+;
+msgNoDiskinfo
+Klarte ikke hente informasjon om disken
+; Couldn't get information about disk
+;
+msgNotValidated
+Partisjonen er ikke validert
+; Partition not validated
+;
+msgOutOfBounds
+Intern feil:\nTilgang til side utenfor partisjonsgrensene\nKontakt forfatteren: apel@tecmath.de
+; Internal error:\nAccessing page out of partition bounds\nContact author: apel@tecmath.de
+;
+msgNoFFS
+Pseudopartisjonen ligger ikke på en FFS-disk
+; Pseudo partition not on a FFS disk
+;
+msgNoConfigFile
+Fant ikke oppsettfilen.\nBruk 'Bruk'- eller 'Lagre'-knappen i grensesnittet
+; Couldn't find configuration file.\nUse the 'Use' or 'Save' button in the GUI
+;
+msgCorruptCfgFile
+Enten VMM.prefs eller\nVMM_MMU.config er ødelagt.
+; Either VMM.prefs or\nVMM_MMU.config is corrupted.
+;
+msgVolumeNotFound
+Ugyldig plassering av vekslefil\n(Volum ikke funnet)
+; Invalid location of paging file\n(Volume not found)
+;
+msgLowVersion
+Krever minst V37 av operativsystemet
+; Need at least V37 of OS to run
+;
+msgNoDOS
+Klarte ikke åpne dos.library
+; Couldn't open dos.library
+;
+msgNoIntuition
+Klarte ikke åpne intuition.library
+; Couldn't open intuition.library
+;
+msgNoGfx
+Klarte ikke åpne graphics.library
+; Couldn't open graphics.library
+;
+msgNoUtility
+Klarte ikke åpne utility.library
+; Couldn't open utility.library
+;
+msgNoExpansion
+Klarte ikke åpne expansion.library
+; Couldn't open expansion.library
+;
+msgNoCommodities
+Klarte ikke åpne commodities.library
+; Couldn't open commodities.library
+;
+msgWrongCPU
+Trenger en MMU for å kjøre dette programmet
+; Need a MMU to run this program
+;
+msgNoAddrSpace
+Klarte ikke allokere adresserom\nfor virtuelt minne
+; Couldn't allocate address space\nfor virtual memory
+;
+msgNoPrefs
+Fant ikke VMM-hovedprogrammet
+; Couldn't locate VMM main program
+;
+msgNoStatwindow
+Klarte ikke åpne statistikkvinduet
+; Couldn't open statistics window
+;
+msgNoRexx
+Klarte ikke åpne rexxsyslib.library
+; Couldn't open rexxsyslib.library
+;
+msgGenericError
+%s fra oppgaven %s:\n%s
+; %s from task %s:\n%s
+;
+msgMessage
+Melding
+; Message
+;
+msgError
+Feil
+; Error
+;
+msgOK
+OK
+; OK
+;
+msgReboot
+Start på nytt
+; Reboot
+;
+msgNoDevice
+Klarte ikke åpne %s
+; Couldn't open %s
+;
+msgNoTimer
+Klarte ikke initialisere tidtakeren
+; Couldn't initialize timer
+;
+msgPPTooLarge
+Ikke nok plass til pseudopartisjonen.\nLedig plass på enheten er %ld MB
+; Not enough space for pseudo-partition.\nSpace left on device is %ld MB
+;
+msgTooFragmented
+Harddisken din er for fragmentert\nStørste sammenhengende blokk er %ld MB.\nEndre størrelsen på pseudopartisjonen eller reorganiser disken
+; Your harddisk is too fragmented\nLargest contiguous chunk is %ld MB.\nResize pseudo-partition or reorganize your disk
+;
+msgVMMLibStillOpen
+Kan ikke avslutte. VMM.library er fortsatt åpnet
+; Can't quit. VMM.library is still opened
+;
+msgNotEnoughFrames
+Kan ikke avslutte. Ikke nok siderammer\ntil å lagre minnet som fortsatt er allokert.
+; Can't quit. Not enough page frames\nto store still allocated memory in.
+;
+msgStillVMAllocated
+Det er fortsatt virtuelt minne allokert\nDisse blokkene lastes inn i fysisk minne\nog VMM avsluttes.
+; There is still virtual memory allocated\nThese chunks are loaded into physical memory\nand VMM will quit.
+;
+msgUnusedPartition
+Partisjonen %s har ikke blitt brukt\ntil sideveksling ennå. Overskrive den ?
+; Partition %s has not been used\nfor paging yet. Overwrite it ?
+;
+msgUseCancel
+Bruk|Avbryt
+; Use|Cancel
+;
+msgDeleteFile
+Filen %s er ikke\nsammenhengende eller har feil størrelse.\nSlette den ?
+; File %s is not\ncontiguous or has wrong size.\nDelete it ?
+;
+msgDeleteCancel
+Slett|Avbryt
+; Delete|Cancel
+;
+msgPageDevChanged
+Du kan ikke endre parametrene til sidevekslingsenheten\nmens VMM kjører. Endringene trer først i kraft\nved neste oppstart av VMM.
+; You cannot change parameter of the paging device\nwhile VMM is running. Your changes will only take\neffect after the next start of VMM.
+;
+msgVMFree
+Ledig virtuelt minne:
+; Virtual memory free:
+;
+msgPublicFastFree
+Ledig Public Fast-minne:
+; Public Fast Mem free:
+;
+msgNumPF
+Antall sidefeil:
+; Number of pagefaults:
+;
+msgNumRead
+Antall sider lest:
+; Number of pages read:
+;
+msgNumWritten
+Antall sider skrevet:
+; Number of pages written:
+;
+msgNumFrames
+Antall siderammer:
+; Number of page frames:
+;
+msgPagesUsed
+Sider brukt på enhet:
+; Pages used on device:
+;
+msgDynMapFailed
+Klarte ikke installere sidetabell for dynamisk MMU-oppsett.\nOppgaven ble stoppet.
+; Could not install pagetable for dynamic MMU configuration.\nTask stopped.
+;

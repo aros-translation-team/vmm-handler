@@ -1,0 +1,212 @@
+## version $VER: vmm-handler.catalog 1.0 (06.08.2026)
+## language português
+## codeset 0
+;
+msgNotEnoughMem
+Memória insuficiente
+; Not enough memory
+;
+msgNoPagingFile
+Não foi possível abrir o ficheiro de paginação
+; Couldn't open paging file
+;
+msgNoSpace
+Espaço insuficiente no disco
+; Not enough space on disk
+;
+msgFailedIo
+Falhou o IO para o dispositivo de paginação
+; IO to paging device failed
+;
+msgFileIsDir
+O ficheiro de paginação é um directório
+; Pagefile is a directory
+;
+msgInternal
+Erro interno.\nContacte o autor: apel@tecmath.de
+; Internal error.\nContact author: apel@tecmath.de
+;
+msgInhibitFailed
+Não foi possível impedir o DOS de usar a partição
+; Couldn't inhibit DOS from using partition
+;
+msgWrongBlocksize
+Partição FFS com tamanho de bloco != 512 bytes
+; FFS partition with blocksize != 512 bytes
+;
+msgNoDiskinfo
+Não foi possível obter informação sobre o disco
+; Couldn't get information about disk
+;
+msgNotValidated
+Partição não validada
+; Partition not validated
+;
+msgOutOfBounds
+Erro interno:\nAcesso a página fora dos limites da partição\nContacte o autor: apel@tecmath.de
+; Internal error:\nAccessing page out of partition bounds\nContact author: apel@tecmath.de
+;
+msgNoFFS
+A pseudo-partição não está num disco FFS
+; Pseudo partition not on a FFS disk
+;
+msgNoConfigFile
+Não foi possível encontrar o ficheiro de configuração.\nUse o botão 'Usar' ou 'Guardar' no GUI
+; Couldn't find configuration file.\nUse the 'Use' or 'Save' button in the GUI
+;
+msgCorruptCfgFile
+O VMM.prefs ou o\nVMM_MMU.config está corrompido.
+; Either VMM.prefs or\nVMM_MMU.config is corrupted.
+;
+msgVolumeNotFound
+Localização inválida do ficheiro de paginação\n(Volume não encontrado)
+; Invalid location of paging file\n(Volume not found)
+;
+msgLowVersion
+É necessária pelo menos a V37 do SO para executar
+; Need at least V37 of OS to run
+;
+msgNoDOS
+Não foi possível abrir dos.library
+; Couldn't open dos.library
+;
+msgNoIntuition
+Não foi possível abrir intuition.library
+; Couldn't open intuition.library
+;
+msgNoGfx
+Não foi possível abrir graphics.library
+; Couldn't open graphics.library
+;
+msgNoUtility
+Não foi possível abrir utility.library
+; Couldn't open utility.library
+;
+msgNoExpansion
+Não foi possível abrir expansion.library
+; Couldn't open expansion.library
+;
+msgNoCommodities
+Não foi possível abrir commodities.library
+; Couldn't open commodities.library
+;
+msgWrongCPU
+É necessária uma MMU para executar este programa
+; Need a MMU to run this program
+;
+msgNoAddrSpace
+Não foi possível alocar espaço de endereçamento\npara a memória virtual
+; Couldn't allocate address space\nfor virtual memory
+;
+msgNoPrefs
+Não foi possível localizar o programa principal do VMM
+; Couldn't locate VMM main program
+;
+msgNoStatwindow
+Não foi possível abrir a janela de estatísticas
+; Couldn't open statistics window
+;
+msgNoRexx
+Não foi possível abrir rexxsyslib.library
+; Couldn't open rexxsyslib.library
+;
+msgGenericError
+%s da tarefa %s:\n%s
+; %s from task %s:\n%s
+;
+msgMessage
+Mensagem
+; Message
+;
+msgError
+Erro
+; Error
+;
+msgOK
+OK
+; OK
+;
+msgReboot
+Reiniciar
+; Reboot
+;
+msgNoDevice
+Não foi possível abrir %s
+; Couldn't open %s
+;
+msgNoTimer
+Não foi possível inicializar o temporizador
+; Couldn't initialize timer
+;
+msgPPTooLarge
+Espaço insuficiente para a pseudo-partição.\nO espaço livre no dispositivo é de %ld MB
+; Not enough space for pseudo-partition.\nSpace left on device is %ld MB
+;
+msgTooFragmented
+O seu disco rígido está demasiado fragmentado\nO maior bloco contíguo tem %ld MB.\nRedimensione a pseudo-partição ou reorganize o disco
+; Your harddisk is too fragmented\nLargest contiguous chunk is %ld MB.\nResize pseudo-partition or reorganize your disk
+;
+msgVMMLibStillOpen
+Não é possível sair. VMM.library ainda está aberta
+; Can't quit. VMM.library is still opened
+;
+msgNotEnoughFrames
+Não é possível sair. Não há page frames suficientes\npara armazenar a memória ainda alocada.
+; Can't quit. Not enough page frames\nto store still allocated memory in.
+;
+msgStillVMAllocated
+Ainda existe memória virtual alocada\nEstes blocos serão carregados para a memória física\ne o VMM irá terminar.
+; There is still virtual memory allocated\nThese chunks are loaded into physical memory\nand VMM will quit.
+;
+msgUnusedPartition
+A partição %s ainda não foi usada\npara paginação. Sobrescrevê-la ?
+; Partition %s has not been used\nfor paging yet. Overwrite it ?
+;
+msgUseCancel
+Usar|Cancelar
+; Use|Cancel
+;
+msgDeleteFile
+O ficheiro %s não é\ncontíguo ou tem o tamanho errado.\nApagá-lo ?
+; File %s is not\ncontiguous or has wrong size.\nDelete it ?
+;
+msgDeleteCancel
+Apagar|Cancelar
+; Delete|Cancel
+;
+msgPageDevChanged
+Não pode alterar os parâmetros do dispositivo de paginação\nenquanto o VMM está a correr. As alterações só terão\nefeito no próximo arranque do VMM.
+; You cannot change parameter of the paging device\nwhile VMM is running. Your changes will only take\neffect after the next start of VMM.
+;
+msgVMFree
+Memória virtual livre:
+; Virtual memory free:
+;
+msgPublicFastFree
+Mem. Fast pública livre:
+; Public Fast Mem free:
+;
+msgNumPF
+Número de faltas de página:
+; Number of pagefaults:
+;
+msgNumRead
+Número de páginas lidas:
+; Number of pages read:
+;
+msgNumWritten
+Número de páginas escritas:
+; Number of pages written:
+;
+msgNumFrames
+Número de page frames:
+; Number of page frames:
+;
+msgPagesUsed
+Páginas usadas no dispositivo:
+; Pages used on device:
+;
+msgDynMapFailed
+Não foi possível instalar a tabela de páginas para a configuração dinâmica da MMU.\nTarefa parada.
+; Could not install pagetable for dynamic MMU configuration.\nTask stopped.
+;

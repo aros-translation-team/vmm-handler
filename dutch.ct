@@ -1,0 +1,212 @@
+## version $VER: vmm-handler.catalog 1.0 (06.08.2026)
+## language nederlands
+## codeset 0
+;
+msgNotEnoughMem
+Onvoldoende geheugen
+; Not enough memory
+;
+msgNoPagingFile
+Kon het wisselbestand niet openen
+; Couldn't open paging file
+;
+msgNoSpace
+Onvoldoende ruimte op de schijf
+; Not enough space on disk
+;
+msgFailedIo
+IO naar het wisselapparaat is mislukt
+; IO to paging device failed
+;
+msgFileIsDir
+Wisselbestand is een map
+; Pagefile is a directory
+;
+msgInternal
+Interne fout.\nNeem contact op met de auteur: apel@tecmath.de
+; Internal error.\nContact author: apel@tecmath.de
+;
+msgInhibitFailed
+Kon DOS niet beletten de partitie te gebruiken
+; Couldn't inhibit DOS from using partition
+;
+msgWrongBlocksize
+FFS-partitie met blokgrootte != 512 bytes
+; FFS partition with blocksize != 512 bytes
+;
+msgNoDiskinfo
+Kon geen informatie over de schijf verkrijgen
+; Couldn't get information about disk
+;
+msgNotValidated
+Partitie niet gevalideerd
+; Partition not validated
+;
+msgOutOfBounds
+Interne fout:\nToegang tot pagina buiten de grenzen van de partitie\nNeem contact op met de auteur: apel@tecmath.de
+; Internal error:\nAccessing page out of partition bounds\nContact author: apel@tecmath.de
+;
+msgNoFFS
+Pseudopartitie staat niet op een FFS-schijf
+; Pseudo partition not on a FFS disk
+;
+msgNoConfigFile
+Kon het configuratiebestand niet vinden.\nGebruik de knop 'Gebruiken' of 'Bewaren' in de GUI
+; Couldn't find configuration file.\nUse the 'Use' or 'Save' button in the GUI
+;
+msgCorruptCfgFile
+VMM.prefs of\nVMM_MMU.config is beschadigd.
+; Either VMM.prefs or\nVMM_MMU.config is corrupted.
+;
+msgVolumeNotFound
+Ongeldige locatie van wisselbestand\n(Volume niet gevonden)
+; Invalid location of paging file\n(Volume not found)
+;
+msgLowVersion
+Vereist minstens V37 van het OS
+; Need at least V37 of OS to run
+;
+msgNoDOS
+Kon dos.library niet openen
+; Couldn't open dos.library
+;
+msgNoIntuition
+Kon intuition.library niet openen
+; Couldn't open intuition.library
+;
+msgNoGfx
+Kon graphics.library niet openen
+; Couldn't open graphics.library
+;
+msgNoUtility
+Kon utility.library niet openen
+; Couldn't open utility.library
+;
+msgNoExpansion
+Kon expansion.library niet openen
+; Couldn't open expansion.library
+;
+msgNoCommodities
+Kon commodities.library niet openen
+; Couldn't open commodities.library
+;
+msgWrongCPU
+Dit programma vereist een MMU
+; Need a MMU to run this program
+;
+msgNoAddrSpace
+Kon geen adresruimte reserveren\nvoor virtueel geheugen
+; Couldn't allocate address space\nfor virtual memory
+;
+msgNoPrefs
+Kon het VMM-hoofdprogramma niet vinden
+; Couldn't locate VMM main program
+;
+msgNoStatwindow
+Kon het statistiekvenster niet openen
+; Couldn't open statistics window
+;
+msgNoRexx
+Kon rexxsyslib.library niet openen
+; Couldn't open rexxsyslib.library
+;
+msgGenericError
+%s van task %s:\n%s
+; %s from task %s:\n%s
+;
+msgMessage
+Bericht
+; Message
+;
+msgError
+Fout
+; Error
+;
+msgOK
+OK
+; OK
+;
+msgReboot
+Herstarten
+; Reboot
+;
+msgNoDevice
+Kon %s niet openen
+; Couldn't open %s
+;
+msgNoTimer
+Kon de timer niet initialiseren
+; Couldn't initialize timer
+;
+msgPPTooLarge
+Onvoldoende ruimte voor pseudopartitie.\nResterende ruimte op het apparaat is %ld MB
+; Not enough space for pseudo-partition.\nSpace left on device is %ld MB
+;
+msgTooFragmented
+Uw harde schijf is te gefragmenteerd\nGrootste aaneengesloten blok is %ld MB.\nWijzig de grootte van de pseudopartitie of reorganiseer uw schijf
+; Your harddisk is too fragmented\nLargest contiguous chunk is %ld MB.\nResize pseudo-partition or reorganize your disk
+;
+msgVMMLibStillOpen
+Kan niet stoppen. VMM.library is nog geopend
+; Can't quit. VMM.library is still opened
+;
+msgNotEnoughFrames
+Kan niet stoppen. Onvoldoende paginaframes\nom het nog gereserveerde geheugen in op te slaan.
+; Can't quit. Not enough page frames\nto store still allocated memory in.
+;
+msgStillVMAllocated
+Er is nog virtueel geheugen gereserveerd\nDeze blokken worden in fysiek geheugen geladen\nen VMM zal stoppen.
+; There is still virtual memory allocated\nThese chunks are loaded into physical memory\nand VMM will quit.
+;
+msgUnusedPartition
+Partitie %s is nog niet gebruikt\nvoor wisselgeheugen. Overschrijven ?
+; Partition %s has not been used\nfor paging yet. Overwrite it ?
+;
+msgUseCancel
+Gebruik|Annuleer
+; Use|Cancel
+;
+msgDeleteFile
+Bestand %s is niet\naaneengesloten of heeft de verkeerde grootte.\nVerwijderen ?
+; File %s is not\ncontiguous or has wrong size.\nDelete it ?
+;
+msgDeleteCancel
+Verwijder|Annuleer
+; Delete|Cancel
+;
+msgPageDevChanged
+U kunt de parameters van het wisselapparaat niet\nwijzigen terwijl VMM draait. Uw wijzigingen worden\npas van kracht na de volgende start van VMM.
+; You cannot change parameter of the paging device\nwhile VMM is running. Your changes will only take\neffect after the next start of VMM.
+;
+msgVMFree
+Virtueel geheugen vrij:
+; Virtual memory free:
+;
+msgPublicFastFree
+Publiek Fast-geheugen vrij:
+; Public Fast Mem free:
+;
+msgNumPF
+Aantal pagefaults:
+; Number of pagefaults:
+;
+msgNumRead
+Aantal gelezen pagina's:
+; Number of pages read:
+;
+msgNumWritten
+Aantal geschreven pagina's:
+; Number of pages written:
+;
+msgNumFrames
+Aantal paginaframes:
+; Number of page frames:
+;
+msgPagesUsed
+Gebruikte pagina's op apparaat:
+; Pages used on device:
+;
+msgDynMapFailed
+Kon geen paginatabel installeren voor dynamische MMU-configuratie.\nTask gestopt.
+; Could not install pagetable for dynamic MMU configuration.\nTask stopped.
+;

@@ -1,0 +1,212 @@
+## version $VER: vmm-handler.catalog 1.0 (06.08.2026)
+## language hrvatski
+## codeset 5
+;
+msgNotEnoughMem
+Nedovoljno memorije
+; Not enough memory
+;
+msgNoPagingFile
+Ne mogu otvoriti straniènu datoteku
+; Couldn't open paging file
+;
+msgNoSpace
+Nedovoljno prostora na disku
+; Not enough space on disk
+;
+msgFailedIo
+IO prema ureðaju za stranièenje nije uspio
+; IO to paging device failed
+;
+msgFileIsDir
+Stranièna datoteka je mapa
+; Pagefile is a directory
+;
+msgInternal
+Interna pogre¹ka.\nKontaktirajte autora: apel@tecmath.de
+; Internal error.\nContact author: apel@tecmath.de
+;
+msgInhibitFailed
+Ne mogu sprijeèiti DOS da koristi particiju
+; Couldn't inhibit DOS from using partition
+;
+msgWrongBlocksize
+FFS particija s velièinom bloka != 512 bajtova
+; FFS partition with blocksize != 512 bytes
+;
+msgNoDiskinfo
+Ne mogu dobiti informacije o disku
+; Couldn't get information about disk
+;
+msgNotValidated
+Particija nije validirana
+; Partition not validated
+;
+msgOutOfBounds
+Interna pogre¹ka:\nPristup stranici izvan granica particije\nKontaktirajte autora: apel@tecmath.de
+; Internal error:\nAccessing page out of partition bounds\nContact author: apel@tecmath.de
+;
+msgNoFFS
+Pseudo-particija nije na FFS disku
+; Pseudo partition not on a FFS disk
+;
+msgNoConfigFile
+Ne mogu pronaæi konfiguracijsku datoteku.\nKoristite tipku 'Koristi' ili 'Spremi' u GUI-ju
+; Couldn't find configuration file.\nUse the 'Use' or 'Save' button in the GUI
+;
+msgCorruptCfgFile
+VMM.prefs ili\nVMM_MMU.config je o¹teæen.
+; Either VMM.prefs or\nVMM_MMU.config is corrupted.
+;
+msgVolumeNotFound
+Neispravna lokacija straniène datoteke\n(Volumen nije pronaðen)
+; Invalid location of paging file\n(Volume not found)
+;
+msgLowVersion
+Potreban je barem OS V37 za pokretanje
+; Need at least V37 of OS to run
+;
+msgNoDOS
+Ne mogu otvoriti dos.library
+; Couldn't open dos.library
+;
+msgNoIntuition
+Ne mogu otvoriti intuition.library
+; Couldn't open intuition.library
+;
+msgNoGfx
+Ne mogu otvoriti graphics.library
+; Couldn't open graphics.library
+;
+msgNoUtility
+Ne mogu otvoriti utility.library
+; Couldn't open utility.library
+;
+msgNoExpansion
+Ne mogu otvoriti expansion.library
+; Couldn't open expansion.library
+;
+msgNoCommodities
+Ne mogu otvoriti commodities.library
+; Couldn't open commodities.library
+;
+msgWrongCPU
+Potreban je MMU za pokretanje ovog programa
+; Need a MMU to run this program
+;
+msgNoAddrSpace
+Ne mogu alocirati adresni prostor\nza virtualnu memoriju
+; Couldn't allocate address space\nfor virtual memory
+;
+msgNoPrefs
+Ne mogu pronaæi glavni program VMM-a
+; Couldn't locate VMM main program
+;
+msgNoStatwindow
+Ne mogu otvoriti prozor statistike
+; Couldn't open statistics window
+;
+msgNoRexx
+Ne mogu otvoriti rexxsyslib.library
+; Couldn't open rexxsyslib.library
+;
+msgGenericError
+%s od zadatka %s:\n%s
+; %s from task %s:\n%s
+;
+msgMessage
+Poruka
+; Message
+;
+msgError
+Pogre¹ka
+; Error
+;
+msgOK
+U redu
+; OK
+;
+msgReboot
+Ponovno pokreni
+; Reboot
+;
+msgNoDevice
+Ne mogu otvoriti %s
+; Couldn't open %s
+;
+msgNoTimer
+Ne mogu inicijalizirati timer
+; Couldn't initialize timer
+;
+msgPPTooLarge
+Nedovoljno prostora za pseudo-particiju.\nPreostali prostor na ureðaju je %ld MB
+; Not enough space for pseudo-partition.\nSpace left on device is %ld MB
+;
+msgTooFragmented
+Va¹ tvrdi disk je previ¹e fragmentiran\nNajveæi kontinuirani dio je %ld MB.\nPromijenite velièinu pseudo-particije ili reorganizirajte disk
+; Your harddisk is too fragmented\nLargest contiguous chunk is %ld MB.\nResize pseudo-partition or reorganize your disk
+;
+msgVMMLibStillOpen
+Ne mogu izaæi. VMM.library je jo¹ uvijek otvorena
+; Can't quit. VMM.library is still opened
+;
+msgNotEnoughFrames
+Ne mogu izaæi. Nedovoljno okvira stranica\nza pohranu jo¹ alocirane memorije.
+; Can't quit. Not enough page frames\nto store still allocated memory in.
+;
+msgStillVMAllocated
+Jo¹ uvijek je alocirana virtualna memorija\nTi dijelovi se uèitavaju u fizièku memoriju\ni VMM æe zavr¹iti.
+; There is still virtual memory allocated\nThese chunks are loaded into physical memory\nand VMM will quit.
+;
+msgUnusedPartition
+Particija %s jo¹ nije kori¹tena\nza stranièenje. Prepisati je ?
+; Partition %s has not been used\nfor paging yet. Overwrite it ?
+;
+msgUseCancel
+Koristi|Odustani
+; Use|Cancel
+;
+msgDeleteFile
+Datoteka %s nije\nkontinuirana ili je pogre¹ne velièine.\nObrisati je ?
+; File %s is not\ncontiguous or has wrong size.\nDelete it ?
+;
+msgDeleteCancel
+Izbri¹i|Odustani
+; Delete|Cancel
+;
+msgPageDevChanged
+Ne mo¾ete mijenjati parametre ureðaja za stranièenje\ndok je VMM pokrenut. Va¹e promjene æe stupiti na\nsnagu tek nakon sljedeæeg pokretanja VMM-a.
+; You cannot change parameter of the paging device\nwhile VMM is running. Your changes will only take\neffect after the next start of VMM.
+;
+msgVMFree
+Slobodna virtualna memorija:
+; Virtual memory free:
+;
+msgPublicFastFree
+Slobodna Public Fast memorija:
+; Public Fast Mem free:
+;
+msgNumPF
+Broj gre¹aka stranica:
+; Number of pagefaults:
+;
+msgNumRead
+Broj proèitanih stranica:
+; Number of pages read:
+;
+msgNumWritten
+Broj zapisanih stranica:
+; Number of pages written:
+;
+msgNumFrames
+Broj okvira stranica:
+; Number of page frames:
+;
+msgPagesUsed
+Iskori¹tene stranice na ureðaju:
+; Pages used on device:
+;
+msgDynMapFailed
+Ne mogu instalirati tablicu stranica za dinamièku MMU konfiguraciju.\nZadatak zaustavljen.
+; Could not install pagetable for dynamic MMU configuration.\nTask stopped.
+;

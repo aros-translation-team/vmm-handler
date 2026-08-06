@@ -1,0 +1,212 @@
+## version $VER: vmm-handler.catalog 1.0 (06.08.2026)
+## language magyar
+## codeset 5
+;
+msgNotEnoughMem
+Nincs elég memória a mûvelet végrehajtásához
+; Not enough memory
+;
+msgNoPagingFile
+Nem sikerült megnyitni a lapozófájlt
+; Couldn't open paging file
+;
+msgNoSpace
+Nincs elég hely a lemezen
+; Not enough space on disk
+;
+msgFailedIo
+A lapozóeszköz I/O mûvelete meghiúsult
+; IO to paging device failed
+;
+msgFileIsDir
+A lapozófájl egy könyvtár
+; Pagefile is a directory
+;
+msgInternal
+Belsõ hiba.\nÉrtesítsd a szerzõt: apel@tecmath.de
+; Internal error.\nContact author: apel@tecmath.de
+;
+msgInhibitFailed
+Nem sikerült megakadályozni, hogy a DOS használja a partíciót
+; Couldn't inhibit DOS from using partition
+;
+msgWrongBlocksize
+FFS partíció 512 bájttól eltérõ blokkmérettel
+; FFS partition with blocksize != 512 bytes
+;
+msgNoDiskinfo
+Nem sikerült információt szerezni a lemezrõl
+; Couldn't get information about disk
+;
+msgNotValidated
+A partíció nincs validálva
+; Partition not validated
+;
+msgOutOfBounds
+Belsõ hiba:\nPartíción kívüli lap elérése\nÉrtesítsd a szerzõt: apel@tecmath.de
+; Internal error:\nAccessing page out of partition bounds\nContact author: apel@tecmath.de
+;
+msgNoFFS
+A pszeudo-partíció nem FFS lemezen van
+; Pseudo partition not on a FFS disk
+;
+msgNoConfigFile
+Nem található a konfigurációs fájl.\nHasználd a felület 'Use' vagy 'Save' gombját
+; Couldn't find configuration file.\nUse the 'Use' or 'Save' button in the GUI
+;
+msgCorruptCfgFile
+A VMM.prefs vagy a\nVMM_MMU.config sérült.
+; Either VMM.prefs or\nVMM_MMU.config is corrupted.
+;
+msgVolumeNotFound
+A lapozófájl helye érvénytelen\n(A kötet nem található)
+; Invalid location of paging file\n(Volume not found)
+;
+msgLowVersion
+A futtatáshoz legalább V37-es OS szükséges
+; Need at least V37 of OS to run
+;
+msgNoDOS
+Nem sikerült megnyitni a dos.library-t
+; Couldn't open dos.library
+;
+msgNoIntuition
+Nem sikerült megnyitni az intuition.library-t
+; Couldn't open intuition.library
+;
+msgNoGfx
+Nem sikerült megnyitni a graphics.library-t
+; Couldn't open graphics.library
+;
+msgNoUtility
+Nem sikerült megnyitni az utility.library-t
+; Couldn't open utility.library
+;
+msgNoExpansion
+Nem sikerült megnyitni az expansion.library-t
+; Couldn't open expansion.library
+;
+msgNoCommodities
+Nem sikerült megnyitni a commodities.library-t
+; Couldn't open commodities.library
+;
+msgWrongCPU
+A program futtatásához MMU szükséges
+; Need a MMU to run this program
+;
+msgNoAddrSpace
+Nem sikerült címteret foglalni\na virtuális memóriának
+; Couldn't allocate address space\nfor virtual memory
+;
+msgNoPrefs
+Nem található a VMM fõprogram
+; Couldn't locate VMM main program
+;
+msgNoStatwindow
+Nem sikerült megnyitni a statisztikaablakot
+; Couldn't open statistics window
+;
+msgNoRexx
+Nem sikerült megnyitni a rexxsyslib.library-t
+; Couldn't open rexxsyslib.library
+;
+msgGenericError
+%s a(z) %s taszktól:\n%s
+; %s from task %s:\n%s
+;
+msgMessage
+Üzenet
+; Message
+;
+msgError
+Hiba
+; Error
+;
+msgOK
+Oké
+; OK
+;
+msgReboot
+Újraindítás
+; Reboot
+;
+msgNoDevice
+Nem sikerült megnyitni: %s
+; Couldn't open %s
+;
+msgNoTimer
+Nem sikerült inicializálni az idõzítõt
+; Couldn't initialize timer
+;
+msgPPTooLarge
+Nincs elég hely a pszeudo-partíciónak.\nAz eszközön %ld MB szabad hely maradt
+; Not enough space for pseudo-partition.\nSpace left on device is %ld MB
+;
+msgTooFragmented
+A merevlemezed túlságosan töredezett\nA legnagyobb összefüggõ terület %ld MB.\nMéretezd át a pszeudo-partíciót, vagy rendezd újra a lemezt
+; Your harddisk is too fragmented\nLargest contiguous chunk is %ld MB.\nResize pseudo-partition or reorganize your disk
+;
+msgVMMLibStillOpen
+Nem lehet kilépni. A VMM.library még nyitva van
+; Can't quit. VMM.library is still opened
+;
+msgNotEnoughFrames
+Nem lehet kilépni. Nincs elég lapkeret\na még lefoglalt memória tárolásához.
+; Can't quit. Not enough page frames\nto store still allocated memory in.
+;
+msgStillVMAllocated
+Még van lefoglalt virtuális memória\nEzek a darabok a fizikai memóriába kerülnek,\nés a VMM kilép.
+; There is still virtual memory allocated\nThese chunks are loaded into physical memory\nand VMM will quit.
+;
+msgUnusedPartition
+A(z) %s partíciót még nem használtad\nlapozásra. Felülírjam?
+; Partition %s has not been used\nfor paging yet. Overwrite it ?
+;
+msgUseCancel
+Használ|Mégsem
+; Use|Cancel
+;
+msgDeleteFile
+A(z) %s fájl nem\nösszefüggõ, vagy rossz a mérete.\nTöröljem?
+; File %s is not\ncontiguous or has wrong size.\nDelete it ?
+;
+msgDeleteCancel
+Törlés|Mégsem
+; Delete|Cancel
+;
+msgPageDevChanged
+A lapozóeszköz paramétereit nem lehet megváltoztatni,\namíg a VMM fut. A változtatások csak a VMM\nkövetkezõ indításakor lépnek életbe.
+; You cannot change parameter of the paging device\nwhile VMM is running. Your changes will only take\neffect after the next start of VMM.
+;
+msgVMFree
+Szabad virtuális mem.:
+; Virtual memory free:
+;
+msgPublicFastFree
+Szabad Public Fast mem.:
+; Public Fast Mem free:
+;
+msgNumPF
+Laphibák száma:
+; Number of pagefaults:
+;
+msgNumRead
+Beolvasott lapok száma:
+; Number of pages read:
+;
+msgNumWritten
+Kiírt lapok száma:
+; Number of pages written:
+;
+msgNumFrames
+Lapkeretek száma:
+; Number of page frames:
+;
+msgPagesUsed
+Az eszközön használt lapok:
+; Pages used on device:
+;
+msgDynMapFailed
+Nem sikerült telepíteni a laptáblát a dinamikus MMU-beállításhoz.\nA taszk leállt.
+; Could not install pagetable for dynamic MMU configuration.\nTask stopped.
+;
